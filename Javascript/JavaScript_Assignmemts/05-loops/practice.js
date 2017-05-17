@@ -17,7 +17,15 @@
 //    isVowel("Y");
 //    //=> false
 //
-var isVowel = function () {
+var isVowel = function (char) {
+  var z = char.toLowerCase();
+   if (z == "a"||z=="e"||z=="i"||z=="o"||z=="u")
+    {
+      return true;
+    }
+  else{
+    return false;
+  }
 };
 
 
